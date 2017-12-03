@@ -59,22 +59,22 @@ image::images/ComponentLibs.gif[Component Libs]
 * In "Select project template" select "Empty schematic"
 * In "Create Project" dialog select
 ** Workspace Name      =  "CompTest"
-** Location            =  "Path\To\cygwin64\home\"you"\projects\P5LP\TestLibs" 
+** Location            =  "Path\To\cygwin64\home\"you"\projects\P5LP" 
 ** Project Name        =  "CompTest"
 * and "finish"
 
-When new "TestLibs" project is launched
+When new "CompTest" project is launched
 
 * select Tools->Options
 * In "Options" dialog select "Project Management->Default Dependencies"
 * Navigate to "Path\To\cygwin64\home\"you"\projects\P5LP\Components"
-* Using the "New Entry" button to find and "open" each Libratiy's .cyprj file
+* Use the "New Entry" button to find and "open" each Library's .cyprj file
 
-When finished the "Tools->Options" dialog should look like the following
+When finished the "Tools->Options" dialog should look like the following image
 
 image::images/DefaultDependencies.gif[Default Dependencies]
 
-The "Component Catalog" tree should look like
+The "Component Catalog" tree should look like the following
 
 image::images/CDC_Catalog.gif[Component Catalog]
 
