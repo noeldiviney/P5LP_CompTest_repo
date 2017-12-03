@@ -27,7 +27,7 @@ $: chmod a+x ~/bin/repo
 Edit ~/.bash_profile and uncomment lines 32, 33 and 34 to add ~/bin to
 PATH
 
-# Create the PSoC_5LP directory
+# Create the P5LP directory
 
 ....
 $: mkdir -p ~/projects/P5LP
