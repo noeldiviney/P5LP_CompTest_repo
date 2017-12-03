@@ -1,5 +1,5 @@
 [[psoc_5lp_repo]]
-PSoC_5LP_repo
+P5LP_TestComp_repo
 ~~~~~~~~~~~~~
 
 *P5LP_TestComp_repo* repository holds the default.xml manifest to allow the
