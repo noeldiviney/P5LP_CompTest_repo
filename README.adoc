@@ -73,6 +73,7 @@ When new "CompTest" project is launched
 When finished the "Tools->Options" dialog should look like the following image
 image::images/DefaultDependencies.gif[Default Dependencies]
 
-The "Component Catalog" tree should look like the following
+
+The "Component Catalog" tree should look like the following  
 image::images/CDC_Catalog.gif[Component Catalog]
 
