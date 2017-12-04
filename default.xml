@@ -8,9 +8,9 @@
   <remote  fetch="git://github.com/noeldiviney"              name="AudioClkGen_Test"/>
   <!--
   -->
-  <project remote="TinyPrintf_Test"    revision="master"   name="TinyPrintf_Test"      path="ComponentsTest/TinyPrintf_Test"/>
-  <project remote="CharLCD_I2C_Test"   revision="master"   name="CharLCD_I2C_Test"     path="ComponentsTest/CharLCD_I2C_Test"/>
-  <project remote="AudioClkGen_Test"   revision="master"   name="AudioClkGen_Test"     path="ComponentsTest/AudioClkGen_Test"/>
+  <project remote="TinyPrintf_Test"    revision="master"   name="TinyPrintf_Test"      path="TinyPrintf_Test"/>
+  <project remote="CharLCD_I2C_Test"   revision="master"   name="CharLCD_I2C_Test"     path="CharLCD_I2C_Test"/>
+  <project remote="AudioClkGen_Test"   revision="master"   name="AudioClkGen_Test"     path="AudioClkGen_Test"/>
   <!--
   -->
   <!--
