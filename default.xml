@@ -3,14 +3,14 @@
 
   <default sync-j="4" revision="master"/>
 
-  <remote  fetch="git://github.com/noeldiviney"              name="TinyPrintf_Test_lib"/>
-  <remote  fetch="git://github.com/noeldiviney"              name="CharLCD_I2C_Test_lib"/>
-  <remote  fetch="git://github.com/noeldiviney"              name="AudioClkGen_Test_lib"/>
+  <remote  fetch="git://github.com/noeldiviney"              name="TinyPrintf_Test"/>
+  <remote  fetch="git://github.com/noeldiviney"              name="CharLCD_I2C_Test"/>
+  <remote  fetch="git://github.com/noeldiviney"              name="AudioClkGen_Test"/>
   <!--
   -->
-  <project remote="TinyPrintf_Test_lib"    revision="master"   name="TinyPrintf_Test_lib"      path="ComponentsTest/TinyPrintf_Test_lib"/>
-  <project remote="CharLCD_I2C_Test_lib"   revision="master"   name="CharLCD_I2C_Test_lib"     path="ComponentsTest/CharLCD_I2C_Test_lib"/>
-  <project remote="AudioClkGen_Test_lib"   revision="master"   name="AudioClkGen_Test_lib"     path="ComponentsTest/AudioClkGen_Test_lib"/>
+  <project remote="TinyPrintf_Test"    revision="master"   name="TinyPrintf_Test"      path="ComponentsTest/TinyPrintf_Test"/>
+  <project remote="CharLCD_I2C_Test"   revision="master"   name="CharLCD_I2C_Test"     path="ComponentsTest/CharLCD_I2C_Test"/>
+  <project remote="AudioClkGen_Test"   revision="master"   name="AudioClkGen_Test"     path="ComponentsTest/AudioClkGen_Test"/>
   <!--
   -->
   <!--
