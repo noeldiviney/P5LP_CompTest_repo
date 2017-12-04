@@ -27,26 +27,26 @@ $: chmod a+x ~/bin/repo
 Edit ~/.bash_profile and uncomment lines 32, 33 and 34 to add ~/bin to
 PATH
 
-# Create the P5LP directory
+# Create the P5LP ComponentsDev directory
 
 ....
-$: mkdir -p ~/projects/P5LP
-$: cd projects/P5LP
+$: mkdir -p ~/projects/P5LP/ComponentsDev
+$: cd projects/P5LP/ComponentsDev
 ....
 
-# Initialise the repositories for PSoC_5LP Components
+# Initialise the ComponentsDev directory
 
 ....
-$: repo init -u https://github.com/noeldiviney/PSoC_5LP_repo
+$: repo init -u https://github.com/noeldiviney/P5LP_Comp_repo
 ....
 
-# Download the PSoC_5LP Component Libraries
+# Download the P5LP Component Libraries
 
 ....
 $: repo sync
 ....
 
-once this has completed you should have PSoC_5LP Component Libraries in
+once this has completed you should have P5LP Component Libraries in
 place
 
 
@@ -63,7 +63,7 @@ image::images/ComponentLibs.gif[Component Libs]
 ** Project Name        =  "CompTest"
 * and "finish"
 
-When new "CompTest" project is launched
+*When new "CompTest" project is launched*
 
 * select Tools->Options
 * In "Options" dialog select "Project Management->Default Dependencies"
@@ -79,3 +79,21 @@ The "Component Catalog" tree should look like the following
 
 image::images/CDC_Catalog.gif[Component Catalog]
 
+# Create the P5LP ComponentTest directory
+
+....
+$: mkdir -p ~/projects/P5LP/ComponentTest
+$: cd projects/P5LP/ComponentTest
+....
+
+# Initialise the ComponentTest directory
+
+....
+$: repo init -u https://github.com/noeldiviney/P5LP_CompTest_repo
+....
+
+# Download the P5LP Component Test projects
+
+....
+$: repo sync
+....
