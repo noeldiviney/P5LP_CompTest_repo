@@ -71,58 +71,35 @@ place
 
 image::images/ComponentTests.gif[Component Tests]
 
+# Configure PSoC Creator to add the CDC Component libraries
 
+* Launch PSoC Creator
+* select "Tools->Options"
+* Setup the "Options"  dialog as per the following image
 
+image::images/OptionsDialog.gif[Options Dialog]
 
+* Ensure that "Projects Location" shows ~\projects\P5LP\ComponentsTest"
+* Now select "Project Management->Default Dependencies"
+* Navigate to "~\projects\P5LP\ComponentsDev"
+* Use the "New Entry" button to find and "open" each Libratiy's .cyprj file
 
-
-
-
-
-
-
-# Configure PSoC Creator to add the CDC Componet libraries
-
-* Launch PSoC Creator and select "File->New->Project"
-* In "Select project type" dialog select "Target Device" = "PSoC 5lp  CY8C6888LTI-LP097"
-* In "Select project template" select "Empty schematic"
-* In "Create Project" dialog select
-** Workspace Name      =  "CompTest"
-** Location            =  "Path\To\cygwin64\home\"you"\projects\P5LP" 
-** Project Name        =  "CompTest"
-* and "finish"
-
-*When new "CompTest" project is launched*
-
-* select Tools->Options
-* In "Options" dialog select "Project Management->Default Dependencies"
-* Navigate to "Path\To\cygwin64\home\"you"\projects\P5LP\Components"
-* Use the "New Entry" button to find and "open" each Library's .cyprj file
-
-When finished the "Tools->Options" dialog should look like the following image
+## When finished the "Project Management->Default Dependencies" dialog should look like the following
 
 image::images/DefaultDependencies.gif[Default Dependencies]
 
+* When finished press "Ok" to close the dialog
+# Create "Empty Schematic" project
 
-The "Component Catalog" tree should look like the following
+* Use "File->New->Project" to launch the "Create Project" dialog
+* Select "Target device"
+* Select "PSoC 5LP" and "CY8C5888LTQ-LP097"   and  "next" btn
+* Select "Empty Schematic" and "next" btn
+* Select "Finish" btn to launch the new project
+* In "Project Explorer" Window double click on the "TopDesign.cysch"
+* In the "Component Catalog" window on the right select "CDC" tab
+
+## The "Component Catalog" tree should look like
 
 image::images/CDC_Catalog.gif[Component Catalog]
 
-# Create the P5LP ComponentsTest directory
-
-....
-$: mkdir -p ~/projects/P5LP/ComponentsTest
-$: cd projects/P5LP/ComponentsTest
-....
-
-# Initialise the ComponentsTest directory
-
-....
-$: repo init -u https://github.com/noeldiviney/P5LP_CompTest_repo
-....
-
-# Download the P5LP Components Test projects
-
-....
-$: repo sync
-....
