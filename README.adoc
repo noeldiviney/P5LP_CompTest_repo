@@ -10,8 +10,26 @@ https://code.google.com/archive/p/git-repo/[here].
 The *P5LP Component Test Library* 
 repositories catered for are as follows
 
-TODO
+https://github.com/noeldiviney/TinyPrintf_Test
 
+https://github.com/noeldiviney/CharLCD_I2C_Test
+
+https://github.com/noeldiviney/AudioClkGen_Test
+
+TODO ... more Test demos
+
+# I am using Cygwin64 for my Git/Repo working environment
+## Sadly!! we have to use Windows 10 for PSoC Creator
+## Surely now that Dot Net is ported to Linux Cypress can oblige
+## Please
+
+http://www.mcclean-cooper.com/valentino/cygwin_install/[Cygwin install
+howto]
+
+I also installed apt-cyg (cygwin apt-get) and gem. +
+For editing markdown and asciidoc files I istalled
+https://github.com/asciidocfx/AsciidocFX/releases/download/v1.5.6/AsciidocFX_Windows.exe[AsciidocFX] +
+Add other files as required
 
 # Download and Install Google's repo utility
 
@@ -27,30 +45,41 @@ $: chmod a+x ~/bin/repo
 Edit ~/.bash_profile and uncomment lines 32, 33 and 34 to add ~/bin to
 PATH
 
-# Create the P5LP ComponentsDev directory
+# Create the PSoC_5LP Test directory
 
 ....
-$: mkdir -p ~/projects/P5LP/ComponentsDev
-$: cd projects/P5LP/ComponentsDev
+$: mkdir -p ~/projects/P5LP/ComponentsTest
+$: cd projects/P5LP/ComponentsTest
 ....
 
-# Initialise the ComponentsDev directory
+
+# Initialise the ComponentsTest directory
 
 ....
-$: repo init -u https://github.com/noeldiviney/P5LP_Comp_repo
+$: repo init -u https://github.com/noeldiviney/P5LP_CompTest_repo
 ....
 
-# Download the P5LP Component Libraries
+# Download the P5LP Component Test demos
 
 ....
 $: repo sync
 ....
 
-once this has completed you should have P5LP Component Libraries in
+once this has completed you should have P5LP Component Test Projects in
 place
 
 
-image::images/ComponentLibs.gif[Component Libs]
+image::images/ComponentTests.gif[Component Tests]
+
+
+
+
+
+
+
+
+
+
 
 # Configure PSoC Creator to add the CDC Componet libraries
 
