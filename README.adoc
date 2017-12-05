@@ -20,8 +20,6 @@ TODO ... more Test demos
 
 # I am using Cygwin64 for my Git/Repo working environment
 ## Sadly!! we have to use Windows 10 for PSoC Creator
-## Surely now that Dot Net is ported to Linux Cypress can oblige
-## Please
 
 http://www.mcclean-cooper.com/valentino/cygwin_install/[Cygwin install
 howto]
@@ -32,9 +30,6 @@ https://github.com/asciidocfx/AsciidocFX/releases/download/v1.5.6/AsciidocFX_Win
 Add other files as required
 
 # Download and Install Google's repo utility
-
-The above libs are managed by the repo utility. First we need to create
-our work environment
 
 ....
 $: mkdir ~/bin
@@ -59,7 +54,7 @@ $: cd projects/P5LP/ComponentsTest
 $: repo init -u https://github.com/noeldiviney/P5LP_CompTest_repo
 ....
 
-# Download the P5LP Component Test demos
+# Download the P5LP Component Test Projects
 
 ....
 $: repo sync
@@ -103,3 +98,25 @@ image::images/DefaultDependencies.gif[Default Dependencies]
 
 image::images/CDC_Catalog.gif[Component Catalog]
 
+# Developing Projects in ~projects/P5LP/ComponentsTest
+
+* I will use "CharLCD_I2C_Test" as an example
+
+* To prepare for Git it is neccessdary to check out a branch 
+
+....
+$: git checkout master   or whatever branch one wishes to use
+....
+ 
+* Use "File->Open->Project Workspace" to launch the "Open" dialog
+* Navigate to and then "open" "CharLCD_I2C_Test.cywrk"
+* perform any development and Testing
+
+## When done use "git commit -a" and "git push"
+....
+$: git commit -a
+$: git push https://github.com/noeldiviney/CharLCD_I2C_Test.git  (in my case)
+....
+
+# TODO this is a "Work in progress"
+# My intention is to document all of this more thoroughly using GitHub Wiki
