@@ -112,7 +112,7 @@ $: git checkout master   or whatever branch one wishes to use
 * Navigate to and then "open" "CharLCD_I2C_Test.cywrk"
 * perform any development and Testing
 
-## When done use "git commit -a" and "git push"
+## When done use "git commit -a" and "git push" to save the work
 ....
 $: git commit -a
 $: git push https://github.com/noeldiviney/CharLCD_I2C_Test.git  (in my case)
