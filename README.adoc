@@ -10,11 +10,11 @@ https://code.google.com/archive/p/git-repo/[here].
 The *P5LP Component Test Library* 
 repositories catered for are as follows
 
-https://github.com/noeldiviney/TinyPrintf_Test
+https://github.com/noeldiviney/P5LP_TinyPrintf
 
-https://github.com/noeldiviney/CharLCD_I2C_Test
+https://github.com/noeldiviney/P5LP_CharLCD_I2C
 
-https://github.com/noeldiviney/AudioClkGen_Test
+https://github.com/noeldiviney/P5LP_AudioClkGen
 
 TODO ... more Test demos
 
@@ -100,7 +100,7 @@ image::images/CDC_Catalog.gif[Component Catalog]
 
 # Developing Projects in ~projects/P5LP/ComponentsTest
 
-* I will use "CharLCD_I2C_Test" as an example
+* I will use "P5LP_CharLCD_I2C" as an example
 
 * To prepare for Git it is neccessdary to check out a branch 
 
@@ -109,13 +109,13 @@ $: git checkout master   or whatever branch one wishes to use
 ....
  
 * Use "File->Open->Project Workspace" to launch the "Open" dialog
-* Navigate to and then "open" "CharLCD_I2C_Test.cywrk"
+* Navigate to and then "open" "P5LP_CharLCD_I2C.cywrk"
 * perform any development and Testing
 
 ## When done use "git commit -a" and "git push" to save the work
 ....
 $: git commit -a
-$: git push https://github.com/noeldiviney/CharLCD_I2C_Test.git  (in my case)
+$: git push https://github.com/noeldiviney/P5LP_CharLCD_I2C.git  (in my case)
 ....
 
 # TODO this is a "Work in progress"
